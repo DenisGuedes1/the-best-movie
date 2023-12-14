@@ -2,9 +2,9 @@ import { Link,useNavigate } from 'react-router-dom'
 import { useState } from 'react';
 import {BiCameraMovie, BiSearchAlt2} from "react-icons/bi"
 
-import "./NavBar.css";
+import "./NavBarGrid.css";
 
-const Navbar = ()=>{
+export const Navbar = ()=>{
   const [search, setSearch] =useState ("");
   const navigate = useNavigate();
 
@@ -32,5 +32,3 @@ const Navbar = ()=>{
         </nav>
     )
 }
-
-export default Navbar
