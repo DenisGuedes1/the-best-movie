@@ -7,7 +7,7 @@ import {
   BsFillFileEarmarkTextFill
 } from "react-icons/bs";
 import MovieCard from "../components/MovieCard";
-import "./Movie.css"
+import "./Movie.css";
 
 const moviesURL = import.meta.env.VITE_API;
 const apiKey = import.meta.env.VITE_API_KEY;
