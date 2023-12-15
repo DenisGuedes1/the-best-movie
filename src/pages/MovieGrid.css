@@ -53,3 +53,22 @@
     background-color: transparent;
     color:#e2e6e8;
 }
+@media screen and (max-width: 768px) {
+    .container .title {
+      font-size: 2rem;
+      margin: 1rem 0;
+    }
+  
+    .movies-container div {
+      width: 250px;
+      margin-bottom: 1.5rem;
+    }
+    
+    .movies-container {
+        padding: 1rem;
+        display: flex;
+        gap: 16px;
+        width: 450px;
+        flex-wrap: nowrap;
+    }
+  }
